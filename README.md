@@ -4,7 +4,7 @@ A 12-key + 1 rotary encoder macropad built on
 the RP2040-Zero, designed for developers and
 students who live in their terminal.
 
-![Duodec 3d model](3dModel.png)
+![Duodec 3d model](Assets/3dModel.png)
 
 ---
 
@@ -12,11 +12,11 @@ students who live in their terminal.
 
 **Duodec** (Latin: _twelve_) is a compact, open-source macropad featuring 12 mechanical switches, a clickable rotary encoder, and an 128x32 OLED display. Built around the RP2040-Zero, it's fully programmable in Python.
 
-![PCB traces of Duodec](Routes.png)
+![PCB traces of Duodec](Assets/Routes.png)
 
 Designed as a productivity tool for VS Code, terminal workflows, and what not!
 
-![Duodec PCB schematic](Schematic.png)
+![Duodec PCB schematic](Assets/Schematic.png)
 
 ---
 
