@@ -1,0 +1,40 @@
+03-08 18:18:44 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'linux'
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]'
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 9.0.7-9.0.7~ubuntu24.04.1
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 4.0.1
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x701a4c16a180>
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW13 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW12 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW11 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW10 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW9 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW8 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW7 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW6 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW5 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW4 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW3 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW2 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint SW1 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J1 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D12 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D11 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D10 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D9 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D8 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D7 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D6 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D5 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D4 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D3 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D2 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint D1 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint A1 on root level
+03-08 18:18:45 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='SW12'
+03-08 18:18:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 94:By Sheet GUI initialized
+03-08 18:18:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 103:Ref fp:Footprint(ref='SW12', fp=<pcbnew.FOOTPRINT; proxy of <Swig Object of type 'FOOTPRINT *' at 0x701a8415ba50> >, fp_id='43A377DF-79F6-4BAC-98B6-76AB4FDC7863', sheet_id=[], filename=[])
+03-08 18:18:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 104:Levels:[]
+03-08 18:18:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 106:Selecting: 0
+03-08 18:18:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 110:Should invoke level_changed()
+03-08 18:18:50 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 288:Level_changed() invoked
