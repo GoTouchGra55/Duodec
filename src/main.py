@@ -22,6 +22,7 @@ Duodec.diode_orientation = DiodeOrientation.COL2ROW
 layers = Layers()
 Duodec.modules.append(layers)
 
+# Add your custom keymaps here and dont forget to add stuff to the modes list below!
 keyMap = [
     # HOME
     [
@@ -30,7 +31,7 @@ keyMap = [
         KC.LCTL(KC.LALT(KC.M)), KC.LCTL(KC.LALT(KC.O)), KC.LCTL(KC.LALT(KC.P)), KC.LCTL(KC.LALT(KC.V))
     ],
 
-    # BRAVE
+    # BRAVE (I'm a brave user :3)
     [
         KC.NO, KC.NO, KC.NO, KC.NO,
         KC.NO, KC.NO, KC.NO, KC.NO,
@@ -54,13 +55,16 @@ keyMap = [
 
 Duodec.keymap = keyMap
 
-# Display
+# Edit this according to your keymaps
+modes = ["HOME", "BROWSER", "DEV", "MEDIA"] 
+
+# Display stuff
 i2c = busio.I2C(board.GP1, board.GP0)
 oled = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c)
 
 cc = ConsumerControl(usb_hid.devices)
 
-# Encoder
+# Encoder stuff
 a = digitalio.DigitalInOut(board.GP27)
 b = digitalio.DigitalInOut(board.GP28)
 btn = digitalio.DigitalInOut(board.GP29)
@@ -68,8 +72,6 @@ btn = digitalio.DigitalInOut(board.GP29)
 a.switch_to_input(pull=digitalio.Pull.UP)
 b.switch_to_input(pull=digitalio.Pull.UP)
 btn.switch_to_input(pull=digitalio.Pull.UP)
-
-modes = ["HOME", "BROWSER", "DEV", "MEDIA"]
 
 current_layer = 0
 last_a = a.value
@@ -137,7 +139,7 @@ def after_matrix_scan():
     read_button()
     draw()
 
-Duodec.after_matrix_scan = after_matrix_scan
+Duodec.after_matrix_scan = after_matrix_scan()
 
 if __name__ == "__main__":
     Duodec.go()
